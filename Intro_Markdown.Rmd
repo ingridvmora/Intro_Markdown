@@ -1,0 +1,87 @@
+---
+title:  "---------------- Introducción a Markdown ----------------"
+subtitle:  <center> <h1>"Herramientas de análisis cuantitativo y su aplicación en la conservación de la biodiversidad"</h1> </center>
+author: "Ingrid Mora and Juan Zuloaga"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+lang: es
+output:
+  rmdformats::readthedown:
+    toc_depth: 4
+    toc_float:
+      collapsed: true
+    code_folding: show
+---
+<center><h2><span style="color:#3399FF">Ecodiversa </span> <span style="color:green">Tropical</span></h2> </center>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "D:/Talleres_Ecodiversa_R/Intro_Markdown/")
+```
+___
+
+Hace un semestre cursé una materia de Estadística en la universidad en la cual empleábamos las herramientas y paquetes que R ofrece para el análisis y visualización de datos. Semanalmente debíamos entregar laboratorios de los contenidos vistos en la clase teórica, todo lo realizábamos en *R Studio*.
+
+Muchas veces los talleres era demasiado extensos, en algunos casos debíamos incluir, además del código, texto que explicara los resultados o justificara el uso de ciertos modelos estadísticos.  Adicionalmente, debíamos evaluar que las líneas de código que escribíamos se ejecutaran adecuadamente. 
+
+Desarrollar todo en *R Script* era muy engorroso, varios compañeros preferían ejecutar sus programas en la consola, tomar capturas de pantalla del código y de los resultados, y luego adjuntarlas en un documento en Word. Este procedimiento era aún más tedioso que aquel que realizábamos al principio. Por esta razón, uno de nuestros tutores nos sugirió usar *R Markdown* debido a las facilidades que ofrece en la elaboración de documentos dinámicos, justo como los que estabamos realizando. 
+
+Una vez supe de este formato  busque inmediatamente una [cheat sheat](https://rmarkdown.rstudio.com/lesson-15.html) y la [documentación](https://bookdown.org/yihui/rmarkdown/) de *R Markdown* ; no tuve que leer mucho para aprender a utilizarlo, es una herramienta muy sencilla e intuitiva que facilita drásticamente el trabajo. 
+
+Aunque pude desarrollar mis actividades desde el inicio del semestre con *R Markdown*, muchos de mis compañeros no aprendieron a usarlo, bien sea porque para algunos era muy complejo o porque solo encontraban guías en inglés. Por este motivo, varios de ellos continuaron realizando las actividades del curso en Word hasta el final del semestre ¡Imaginen todo el trabajo! 
+
+En ese momento me hubiese gustado enseñarles cómo usar *R Markdown* de manera elemental. Sin embargo, los tiempos de trabajo del curso junto con la pesada carga académica no me lo permitieron. De cierto modo esta guía básica a continuación está dirigida a ellos. Espero que cualquiera sin ningún acercamiento previo a R Markdown pueda, a partir de los contenidos de esta guía, aprender a generar sus propios documentos dinámicos con eficacia. 
+
+
+# 1. Objetivo general
+
+Aprender a crear un archivo `.Rmd` para generar un informe basico en formato `HTML`. 
+
+
+# 2. Objetivos de Aprendizaje
+
+Al final de este taller usted podrá saber cómo:
+
+- Crear un documento dinámico básico. 
+- Comprender los tres componentes fundamentales de los documentos dinámicos en R Markdown: Texto escrito en [markdown](https://daringfireball.net/projects/markdown/basics),`knitr` para incluir bloques de código y `YAML` para establecer los parámetros del documento. 
+- Consultar la documentación de [R Markdown](https://bookdown.org/yihui/rmarkdown/), [knitr](https://yihui.org/knitr/) y [YAML](https://www.yaml.info/learn/index.html). 
+
+# 3. Para empezar 
+
+## Conocimiento previo en R
+
+Si no tiene concocimientos de R o RStudio le sugerimos tomar estos cursos que le ayudaran a desarrollar este taller.
+
++ <a href="https://ecodiversa-talleres.github.io/Intro_Motivacional.html" target="_blank">Taller Introductorio</a>
+
++ <a href="https://ecodiversa-talleres.github.io/IntroR_Bases.html" target="_blank">Introduccion a R</a>
+
++ <a href="https://ecodiversa-talleres.github.io/IntroR_Configurar.html" target="_blank">Configuracion en R</a>
+
++ <a href="https://ecodiversa-talleres.github.io/Intro_Cargar.html" target="_blank">Cargar datos en R</a>
+
+
+## Paquetes en R que vamos a utilizar
+
+Si aún no contamos con R Markdown es esencial que instalemos el paquete en R Studio IDE ejecutando el siguiente comando: 
+
+`install.packages("rmarkdown")`
+
+Para motivarnos antes de comenzar vale la pena establecer brevemente qué es **Markdown** y por qué deberiamos aprender a usarlo.   
+
+## ¿Qué es Markdown? 
+
+Es un lenguaje de marcado ligero (lightweight markup) que puede emplearse para crear una amplia variedad de documentos con múltiples elementos. En un mismo archivo `.Rmd` se pueden tener fragmentos de código incrustado (es una herramienta multilenguaje), gráficas, reportes o texto. 
+
+Un archivo `.Rmd` puede compilarse y exportarse en diferentes formatos, por ejemplo HTML, PDF, Word, entre muchos otros. Por lo cual, con *R Markdown* podemos crear libros, websites, presentaciones, reportes, documentación, etc. 
+
+
+## ¡Empecemos!
+
+Inicie R Studio y abra un .............
+
+
+
+# 4. 
+
+
+
