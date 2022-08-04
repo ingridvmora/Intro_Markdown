@@ -81,6 +81,8 @@ Inicie R Studio y abra un .............
 
 Adicioné un ejemplo 
 
+Adicioné otro ejemplo 
+
 
 
 # 4. 
