@@ -79,6 +79,8 @@ Un archivo `.Rmd` puede compilarse y exportarse en diferentes formatos, por ejem
 
 Inicie R Studio y abra un .............
 
+Adicioné un ejemplo 
+
 
 
 # 4. 
